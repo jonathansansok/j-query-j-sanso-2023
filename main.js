@@ -9,9 +9,22 @@
 $(function(){
     //$("p").css({'background-color': "red"});
     //$("#segundo").css({'background-color': "green"});
-    $("button").click(function(){
-        alert('Hola');
-
+/*     $(".primero").dblclick(function(){
+        $("#segundo").hide();        
+         
+    })
+    $(".primero").mouseleave(function(){
+        $('#segundo').show();
+        
+         
+    }) */
+    $(".primero").mouseenter(function(){
+        $("#segundo").hide();        
+         
+    })
+    $(".primero").mouseleave(function(){
+        $('#segundo').show();
+        
          
     })
     
