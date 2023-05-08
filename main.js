@@ -30,7 +30,7 @@ $(function(){
          
     })
     $('#btn-hide').click(function(){
-        alert($('#segundo').text());
+        alert($('#segundo').attr('title'));
 
 
     }
