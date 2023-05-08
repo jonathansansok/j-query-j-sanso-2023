@@ -18,14 +18,21 @@ $(function(){
         
          
     }) */
+
+    $('.primero').animate({width: '600px'})
     $(".primero").mouseenter(function(){
-        $("#segundo").hide();        
+        $("#segundo").fadeOut();        
          
     })
     $(".primero").mouseleave(function(){
-        $('#segundo').show();
+        $('#segundo').fadeIn();
         
          
     })
-    
+    $('#btn-hide').click(function(){
+        alert($('#segundo').text());
+
+
+    }
+    )
 })
